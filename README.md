@@ -8,8 +8,63 @@ $ npm install --global readme-gen
 ```
 
 ## Usage
-```sh
-$ readme-gen
+
+After `npm init`, run `readme-gen` or `rdm`.
+
+For example, in the case of a package.json such as the following,  output is like this.
+
+```json:package.json
+{
+  "name": "sample-app",
+  "version": "0.0.1",
+  "description": "sample, sample, sample",
+  "author": "akameco",
+  "license": "MIT"
+}
+```
+
+```README.md
+# sample-app
+
+> sample, sample, sample
+
+## Installation
+
+## Usage
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
+## License
+
+MIT
+```
+
+If you want to use custom templete, put the `.readme-genrc` in the home directory.
+
+```ejs:~/.readme-genrc
+# <%= name %>
+
+> <%= description %>
+
+## Install
+
+## Usage
+
+## License
+
+<%= license %> © <%= author %>
+```
+
+## Tests
+
+```
+$ npm test
 ```
 
 ## Contributing
