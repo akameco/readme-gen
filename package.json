@@ -1,6 +1,6 @@
 {
   "name": "readme-gen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "README generator for node.js.",
   "main": "main.js",
   "bin": {
