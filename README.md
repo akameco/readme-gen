@@ -13,7 +13,8 @@ After `npm init`, run `readme-gen` or `rdm`.
 
 For example, in the case of a package.json such as the following,  output is like this.
 
-```json:package.json
+package.json
+```json
 {
   "name": "sample-app",
   "version": "0.0.1",
@@ -23,7 +24,8 @@ For example, in the case of a package.json such as the following,  output is lik
 }
 ```
 
-```README.md
+README.md
+```md
 # sample-app
 
 > sample, sample, sample
@@ -47,7 +49,8 @@ MIT
 
 If you want to use custom templete, put the `.readme-genrc` in the home directory.
 
-```ejs:~/.readme-genrc
+.readme-genrc
+```ejs
 # <%= name %>
 
 > <%= description %>
