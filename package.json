@@ -21,14 +21,14 @@
   "author": "akameco",
   "license": "MIT",
   "dependencies": {
-    "ejs": "^2.3.4",
+    "ejs": "^2.4.1",
     "mem-fs": "^1.1.2",
-    "mem-fs-editor": "^2.1.0",
+    "mem-fs-editor": "^2.2.0",
     "meow": "^3.7.0",
     "read-pkg-up": "^1.0.1"
   },
   "devDependencies": {
-    "ava": "^0.10.0"
+    "ava": "^0.13.0"
   },
   "xo": {
     "esnext": true,
