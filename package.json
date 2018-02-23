@@ -23,12 +23,12 @@
   "dependencies": {
     "ejs": "^2.4.1",
     "mem-fs": "^1.1.2",
-    "mem-fs-editor": "^2.2.0",
-    "meow": "^3.7.0",
-    "read-pkg-up": "^1.0.1"
+    "mem-fs-editor": "^4.0.0",
+    "meow": "^4.0.0",
+    "read-pkg-up": "^3.0.0"
   },
   "devDependencies": {
-    "ava": "^0.13.0"
+    "ava": "^0.25.0"
   },
   "xo": {
     "esnext": true,
