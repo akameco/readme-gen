@@ -1,5 +1,7 @@
 # readme-gen [![Build Status](https://travis-ci.org/akameco/readme-gen.svg?branch=master)](https://travis-ci.org/akameco/readme-gen)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/akameco/readme-gen.svg)](https://greenkeeper.io/)
+
 > README generator for node.js.
 
 ## Installation
